@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.DS_Store
+.env
+
+# Acima do limite de 100 MB do GitHub; baixar do material do evento.
+data/brutos/Novo_Caged_MOV_Limpo.csv
+# Gerados por src/pipeline.py.
+data/processados/*.parquet
+data/processados/*.tmp

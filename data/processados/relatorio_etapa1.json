@@ -1,0 +1,220 @@
+{
+  "schema_caged": {
+    "tipo": "MOV",
+    "linhas": 3397416,
+    "colunas": 30,
+    "faltando_no_arquivo": [],
+    "colunas_indice_removiveis": [
+      "Unnamed: 0",
+      "Unnamed: 0.1"
+    ],
+    "extras_desconhecidas": [],
+    "colunas_exc_presentes": []
+  },
+  "codigos_fora_dicionario": [
+    {
+      "coluna": "regiao",
+      "codigos_distintos": 1,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "uf",
+      "codigos_distintos": 1,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "municipio_codigo",
+      "codigos_distintos": 295,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "secao",
+      "codigos_distintos": 22,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "subclasse",
+      "codigos_distintos": 1149,
+      "codigos_fora_dicionario": 1,
+      "linhas_afetadas": 13,
+      "exemplos": [
+        8630505
+      ]
+    },
+    {
+      "coluna": "categoria",
+      "codigos_distintos": 7,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "cbo2002_ocupacao",
+      "codigos_distintos": 2207,
+      "codigos_fora_dicionario": 28,
+      "linhas_afetadas": 2117,
+      "exemplos": [
+        142360,
+        423115,
+        322715,
+        142365,
+        519325
+      ]
+    },
+    {
+      "coluna": "grau_instrucao",
+      "codigos_distintos": 12,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "raca_cor",
+      "codigos_distintos": 7,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "sexo",
+      "codigos_distintos": 2,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "tipo_empregador",
+      "codigos_distintos": 2,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "tipo_estabelecimento",
+      "codigos_distintos": 3,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "tipo_movimentacao",
+      "codigos_distintos": 11,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "tipo_deficiencia",
+      "codigos_distintos": 7,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "ind_trab_intermitente",
+      "codigos_distintos": 3,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "ind_trab_parcial",
+      "codigos_distintos": 3,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "tam_estab_jan",
+      "codigos_distintos": 11,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "indicador_aprendiz",
+      "codigos_distintos": 2,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "origem_informacao",
+      "codigos_distintos": 2,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "indicador_fora_prazo",
+      "codigos_distintos": 2,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    },
+    {
+      "coluna": "unidade_salario_codigo",
+      "codigos_distintos": 8,
+      "codigos_fora_dicionario": 0,
+      "linhas_afetadas": 0,
+      "exemplos": []
+    }
+  ],
+  "consistencia": {
+    "saldo_fora_de_+1/-1": 0,
+    "uf_diferente_de_42": 0,
+    "municipio_fora_de_sc": 0,
+    "competencia_mov_maior_que_dec": 0,
+    "salario_negativo": 0,
+    "horas_negativas": 0,
+    "admissao_com_tipo_de_desligamento": 0,
+    "desligamento_com_tipo_de_admissao": 0,
+    "fora_prazo_inconsistente": 0,
+    "idade_implausivel": 0,
+    "horas_acima_de_60": 0,
+    "linhas_identicas (mantidas)": 166469
+  },
+  "exclusoes": {
+    "linhas_antes": 3397416,
+    "removidas_por_indicador": 0,
+    "removidas_por_arquivo_exc": 0,
+    "linhas_exc": null,
+    "exc_sem_par": null,
+    "linhas_depois": 3397416,
+    "arquivo_exc": null
+  },
+  "flags": {
+    "flag_fora_janela": 6128,
+    "flag_salario_atipico": 45023,
+    "flag_idade_ausente": 2202,
+    "flag_sem_perfil": 510,
+    "flag_cbo_fora_dicionario": 2117,
+    "flag_subclasse_fora_dicionario": 13
+  },
+  "saldo_total": 41482,
+  "saldo_janela_12m": 41394,
+  "municipios": {
+    "linhas_brutas": 296,
+    "linhas_removidas_rodape": 1,
+    "valores_indisponiveis": {
+      "idhm_2010": 2,
+      "mortalidade_infantil_2025": 123
+    },
+    "linhas_finais": 295,
+    "codigos_duplicados": 0,
+    "caged_sem_ibge": [],
+    "ibge_sem_caged": []
+  },
+  "avisos": [
+    "CAGED MOV: 2,202 valor(es) ausente(s) em 'idade' (mantidos como nulo).",
+    "Exclusões não aplicadas: não há arquivo EXC em data/brutos e o MOV não tem indicadordeexclusão. Premissa: a base '_Limpo' já vem sem os registros excluídos."
+  ]
+}

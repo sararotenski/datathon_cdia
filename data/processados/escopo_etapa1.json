@@ -1,0 +1,593 @@
+{
+  "janela": [
+    202509,
+    202608
+  ],
+  "movimentacoes_janela": 3391288,
+  "setores": {
+    "por_secao": [
+      {
+        "secao": "A",
+        "movimentacoes": 99488,
+        "admissoes": 50285,
+        "desligamentos": 49203,
+        "saldo": 1082,
+        "pct_deslig_a_pedido": 0.394,
+        "pct_base": 0.0293
+      },
+      {
+        "secao": "B",
+        "movimentacoes": 5476,
+        "admissoes": 2661,
+        "desligamentos": 2815,
+        "saldo": -154,
+        "pct_deslig_a_pedido": 0.348,
+        "pct_base": 0.0016
+      },
+      {
+        "secao": "C",
+        "movimentacoes": 835866,
+        "admissoes": 418437,
+        "desligamentos": 417429,
+        "saldo": 1008,
+        "pct_deslig_a_pedido": 0.509,
+        "pct_base": 0.2465
+      },
+      {
+        "secao": "D",
+        "movimentacoes": 2242,
+        "admissoes": 1128,
+        "desligamentos": 1114,
+        "saldo": 14,
+        "pct_deslig_a_pedido": 0.423,
+        "pct_base": 0.0007
+      },
+      {
+        "secao": "E",
+        "movimentacoes": 23986,
+        "admissoes": 12115,
+        "desligamentos": 11871,
+        "saldo": 244,
+        "pct_deslig_a_pedido": 0.454,
+        "pct_base": 0.0071
+      },
+      {
+        "secao": "F",
+        "movimentacoes": 272063,
+        "admissoes": 136798,
+        "desligamentos": 135265,
+        "saldo": 1533,
+        "pct_deslig_a_pedido": 0.382,
+        "pct_base": 0.0802
+      },
+      {
+        "secao": "G",
+        "movimentacoes": 790927,
+        "admissoes": 398220,
+        "desligamentos": 392707,
+        "saldo": 5513,
+        "pct_deslig_a_pedido": 0.495,
+        "pct_base": 0.2332
+      },
+      {
+        "secao": "H",
+        "movimentacoes": 218204,
+        "admissoes": 111735,
+        "desligamentos": 106469,
+        "saldo": 5266,
+        "pct_deslig_a_pedido": 0.503,
+        "pct_base": 0.0643
+      },
+      {
+        "secao": "I",
+        "movimentacoes": 197738,
+        "admissoes": 99326,
+        "desligamentos": 98412,
+        "saldo": 914,
+        "pct_deslig_a_pedido": 0.469,
+        "pct_base": 0.0583
+      },
+      {
+        "secao": "J",
+        "movimentacoes": 57981,
+        "admissoes": 29631,
+        "desligamentos": 28350,
+        "saldo": 1281,
+        "pct_deslig_a_pedido": 0.465,
+        "pct_base": 0.0171
+      },
+      {
+        "secao": "K",
+        "movimentacoes": 27006,
+        "admissoes": 13438,
+        "desligamentos": 13568,
+        "saldo": -130,
+        "pct_deslig_a_pedido": 0.445,
+        "pct_base": 0.008
+      },
+      {
+        "secao": "L",
+        "movimentacoes": 12203,
+        "admissoes": 6132,
+        "desligamentos": 6071,
+        "saldo": 61,
+        "pct_deslig_a_pedido": 0.416,
+        "pct_base": 0.0036
+      },
+      {
+        "secao": "M",
+        "movimentacoes": 105778,
+        "admissoes": 56298,
+        "desligamentos": 49480,
+        "saldo": 6818,
+        "pct_deslig_a_pedido": 0.452,
+        "pct_base": 0.0312
+      },
+      {
+        "secao": "N",
+        "movimentacoes": 454452,
+        "admissoes": 233277,
+        "desligamentos": 221175,
+        "saldo": 12102,
+        "pct_deslig_a_pedido": 0.409,
+        "pct_base": 0.134
+      },
+      {
+        "secao": "O",
+        "movimentacoes": 18080,
+        "admissoes": 8788,
+        "desligamentos": 9292,
+        "saldo": -504,
+        "pct_deslig_a_pedido": 0.286,
+        "pct_base": 0.0053
+      },
+      {
+        "secao": "P",
+        "movimentacoes": 73385,
+        "admissoes": 36832,
+        "desligamentos": 36553,
+        "saldo": 279,
+        "pct_deslig_a_pedido": 0.516,
+        "pct_base": 0.0216
+      },
+      {
+        "secao": "Q",
+        "movimentacoes": 121668,
+        "admissoes": 63147,
+        "desligamentos": 58521,
+        "saldo": 4626,
+        "pct_deslig_a_pedido": 0.531,
+        "pct_base": 0.0359
+      },
+      {
+        "secao": "R",
+        "movimentacoes": 25596,
+        "admissoes": 12794,
+        "desligamentos": 12802,
+        "saldo": -8,
+        "pct_deslig_a_pedido": 0.433,
+        "pct_base": 0.0075
+      },
+      {
+        "secao": "S",
+        "movimentacoes": 48857,
+        "admissoes": 25151,
+        "desligamentos": 23706,
+        "saldo": 1445,
+        "pct_deslig_a_pedido": 0.466,
+        "pct_base": 0.0144
+      },
+      {
+        "secao": "T",
+        "movimentacoes": 281,
+        "admissoes": 144,
+        "desligamentos": 137,
+        "saldo": 7,
+        "pct_deslig_a_pedido": 0.489,
+        "pct_base": 0.0001
+      },
+      {
+        "secao": "U",
+        "movimentacoes": 9,
+        "admissoes": 4,
+        "desligamentos": 5,
+        "saldo": -1,
+        "pct_deslig_a_pedido": 0.6,
+        "pct_base": 0.0
+      },
+      {
+        "secao": "Z",
+        "movimentacoes": 2,
+        "admissoes": 0,
+        "desligamentos": 2,
+        "saldo": -2,
+        "pct_deslig_a_pedido": 0.5,
+        "pct_base": 0.0
+      }
+    ],
+    "pct_transformacao_C": 0.2465,
+    "pct_industria_ampla_B_a_F": 0.336,
+    "saldo_C": 1008,
+    "saldo_B_a_F": 2645
+  },
+  "divisoes_C": [
+    {
+      "divisao": "14",
+      "movimentacoes": 119559,
+      "admissoes": 57494,
+      "desligamentos": 62065,
+      "saldo": -4571,
+      "pct_deslig_a_pedido": 0.557
+    },
+    {
+      "divisao": "16",
+      "movimentacoes": 46435,
+      "admissoes": 22522,
+      "desligamentos": 23913,
+      "saldo": -1391,
+      "pct_deslig_a_pedido": 0.542
+    },
+    {
+      "divisao": "31",
+      "movimentacoes": 32429,
+      "admissoes": 15555,
+      "desligamentos": 16874,
+      "saldo": -1319,
+      "pct_deslig_a_pedido": 0.516
+    },
+    {
+      "divisao": "23",
+      "movimentacoes": 33492,
+      "admissoes": 16325,
+      "desligamentos": 17167,
+      "saldo": -842,
+      "pct_deslig_a_pedido": 0.474
+    },
+    {
+      "divisao": "13",
+      "movimentacoes": 66821,
+      "admissoes": 33014,
+      "desligamentos": 33807,
+      "saldo": -793,
+      "pct_deslig_a_pedido": 0.48
+    },
+    {
+      "divisao": "15",
+      "movimentacoes": 8798,
+      "admissoes": 4123,
+      "desligamentos": 4675,
+      "saldo": -552,
+      "pct_deslig_a_pedido": 0.408
+    },
+    {
+      "divisao": "26",
+      "movimentacoes": 9338,
+      "admissoes": 4483,
+      "desligamentos": 4855,
+      "saldo": -372,
+      "pct_deslig_a_pedido": 0.413
+    },
+    {
+      "divisao": "25",
+      "movimentacoes": 52414,
+      "admissoes": 26054,
+      "desligamentos": 26360,
+      "saldo": -306,
+      "pct_deslig_a_pedido": 0.433
+    },
+    {
+      "divisao": "12",
+      "movimentacoes": 2251,
+      "admissoes": 1031,
+      "desligamentos": 1220,
+      "saldo": -189,
+      "pct_deslig_a_pedido": 0.155
+    },
+    {
+      "divisao": "18",
+      "movimentacoes": 6040,
+      "admissoes": 2930,
+      "desligamentos": 3110,
+      "saldo": -180,
+      "pct_deslig_a_pedido": 0.462
+    },
+    {
+      "divisao": "32",
+      "movimentacoes": 13299,
+      "admissoes": 6591,
+      "desligamentos": 6708,
+      "saldo": -117,
+      "pct_deslig_a_pedido": 0.491
+    },
+    {
+      "divisao": "28",
+      "movimentacoes": 45830,
+      "admissoes": 22866,
+      "desligamentos": 22964,
+      "saldo": -98,
+      "pct_deslig_a_pedido": 0.446
+    },
+    {
+      "divisao": "11",
+      "movimentacoes": 5870,
+      "admissoes": 2931,
+      "desligamentos": 2939,
+      "saldo": -8,
+      "pct_deslig_a_pedido": 0.46
+    },
+    {
+      "divisao": "19",
+      "movimentacoes": 179,
+      "admissoes": 101,
+      "desligamentos": 78,
+      "saldo": 23,
+      "pct_deslig_a_pedido": 0.513
+    },
+    {
+      "divisao": "21",
+      "movimentacoes": 2251,
+      "admissoes": 1143,
+      "desligamentos": 1108,
+      "saldo": 35,
+      "pct_deslig_a_pedido": 0.531
+    },
+    {
+      "divisao": "22",
+      "movimentacoes": 65547,
+      "admissoes": 32906,
+      "desligamentos": 32641,
+      "saldo": 265,
+      "pct_deslig_a_pedido": 0.497
+    },
+    {
+      "divisao": "20",
+      "movimentacoes": 13961,
+      "admissoes": 7122,
+      "desligamentos": 6839,
+      "saldo": 283,
+      "pct_deslig_a_pedido": 0.449
+    },
+    {
+      "divisao": "24",
+      "movimentacoes": 16953,
+      "admissoes": 8668,
+      "desligamentos": 8285,
+      "saldo": 383,
+      "pct_deslig_a_pedido": 0.47
+    },
+    {
+      "divisao": "17",
+      "movimentacoes": 21448,
+      "admissoes": 10984,
+      "desligamentos": 10464,
+      "saldo": 520,
+      "pct_deslig_a_pedido": 0.49
+    },
+    {
+      "divisao": "29",
+      "movimentacoes": 26355,
+      "admissoes": 13594,
+      "desligamentos": 12761,
+      "saldo": 833,
+      "pct_deslig_a_pedido": 0.527
+    },
+    {
+      "divisao": "30",
+      "movimentacoes": 9395,
+      "admissoes": 5212,
+      "desligamentos": 4183,
+      "saldo": 1029,
+      "pct_deslig_a_pedido": 0.46
+    },
+    {
+      "divisao": "33",
+      "movimentacoes": 27360,
+      "admissoes": 14489,
+      "desligamentos": 12871,
+      "saldo": 1618,
+      "pct_deslig_a_pedido": 0.442
+    },
+    {
+      "divisao": "27",
+      "movimentacoes": 33000,
+      "admissoes": 17509,
+      "desligamentos": 15491,
+      "saldo": 2018,
+      "pct_deslig_a_pedido": 0.529
+    },
+    {
+      "divisao": "10",
+      "movimentacoes": 176841,
+      "admissoes": 90790,
+      "desligamentos": 86051,
+      "saldo": 4739,
+      "pct_deslig_a_pedido": 0.565
+    }
+  ],
+  "polos_C": [
+    {
+      "polo": "Têxtil, vestuário e couro",
+      "movimentacoes": 195178,
+      "admissoes": 94631,
+      "desligamentos": 100547,
+      "saldo": -5916,
+      "pct_deslig_a_pedido": 0.524
+    },
+    {
+      "polo": "Madeira, papel e móveis",
+      "movimentacoes": 100312,
+      "admissoes": 49061,
+      "desligamentos": 51251,
+      "saldo": -2190,
+      "pct_deslig_a_pedido": 0.523
+    },
+    {
+      "polo": "Outras (impressão, diversas)",
+      "movimentacoes": 19339,
+      "admissoes": 9521,
+      "desligamentos": 9818,
+      "saldo": -297,
+      "pct_deslig_a_pedido": 0.482
+    },
+    {
+      "polo": "Química, plástico e minerais não metálicos",
+      "movimentacoes": 115430,
+      "admissoes": 57597,
+      "desligamentos": 57833,
+      "saldo": -236,
+      "pct_deslig_a_pedido": 0.485
+    },
+    {
+      "polo": "Eletroeletrônico",
+      "movimentacoes": 42338,
+      "admissoes": 21992,
+      "desligamentos": 20346,
+      "saldo": 1646,
+      "pct_deslig_a_pedido": 0.501
+    },
+    {
+      "polo": "Metalmecânico (metalurgia, metal, máquinas, veículos, manutenção)",
+      "movimentacoes": 178307,
+      "admissoes": 90883,
+      "desligamentos": 87424,
+      "saldo": 3459,
+      "pct_deslig_a_pedido": 0.456
+    },
+    {
+      "polo": "Agroindústria (alimentos, bebidas, fumo)",
+      "movimentacoes": 184962,
+      "admissoes": 94752,
+      "desligamentos": 90210,
+      "saldo": 4542,
+      "pct_deslig_a_pedido": 0.556
+    }
+  ],
+  "divisoes_sem_polo": [],
+  "apagao_proxies": {
+    "pct_deslig_a_pedido_base": 0.471,
+    "pct_deslig_a_pedido_C": 0.509,
+    "movimentacoes_trabalho_temporario_N": 97517
+  },
+  "perfil_base": [
+    {
+      "movimento": "admissao",
+      "n": 1694346,
+      "salario_mediano": 2146.0,
+      "salario_medio": 2407.91,
+      "pct_medio_ou_mais": 0.729,
+      "pct_superior": 0.08
+    },
+    {
+      "movimento": "desligamento",
+      "n": 1652000,
+      "salario_mediano": 2200.0,
+      "salario_medio": 2523.03,
+      "pct_medio_ou_mais": 0.731,
+      "pct_superior": 0.084
+    }
+  ],
+  "perfil_C": [
+    {
+      "movimento": "admissao",
+      "n": 417945,
+      "salario_mediano": 2175.8,
+      "salario_medio": 2409.6,
+      "pct_medio_ou_mais": 0.634,
+      "pct_superior": 0.048
+    },
+    {
+      "movimento": "desligamento",
+      "n": 416465,
+      "salario_mediano": 2250.0,
+      "salario_medio": 2595.88,
+      "pct_medio_ou_mais": 0.655,
+      "pct_superior": 0.054
+    }
+  ],
+  "qualidade_renda_escolaridade_C": {
+    "pct_salario_atipico": 0.0017,
+    "grau_instrucao_nao_identificado": 0
+  },
+  "granularidade_mun_x_divisao_C": {
+    "celulas": 3105,
+    "por_limiar": [
+      {
+        "min_movimentacoes": 30,
+        "celulas": 1631,
+        "pct_movimentacoes_cobertas": 0.983
+      },
+      {
+        "min_movimentacoes": 100,
+        "celulas": 1020,
+        "pct_movimentacoes_cobertas": 0.942
+      },
+      {
+        "min_movimentacoes": 500,
+        "celulas": 363,
+        "pct_movimentacoes_cobertas": 0.76
+      }
+    ],
+    "municipios_com_movimentacao_C": 294
+  },
+  "cbos_C": {
+    "distintos": 1467,
+    "familias_4_digitos": 482,
+    "para_cobrir_80pct": 96,
+    "para_cobrir_90pct": 203,
+    "para_cobrir_95pct": 331
+  },
+  "territorio": {
+    "colunas_regionais_nos_dados": [],
+    "populacao_disponivel": true
+  },
+  "saldo_mensal": [
+    {
+      "competencia_mov": 202509,
+      "saldo": 11381
+    },
+    {
+      "competencia_mov": 202510,
+      "saldo": 6797
+    },
+    {
+      "competencia_mov": 202511,
+      "saldo": 5114
+    },
+    {
+      "competencia_mov": 202512,
+      "saldo": -48616
+    },
+    {
+      "competencia_mov": 202601,
+      "saldo": 19880
+    },
+    {
+      "competencia_mov": 202602,
+      "saldo": 22708
+    },
+    {
+      "competencia_mov": 202603,
+      "saldo": 16946
+    },
+    {
+      "competencia_mov": 202604,
+      "saldo": 2738
+    },
+    {
+      "competencia_mov": 202605,
+      "saldo": -106
+    },
+    {
+      "competencia_mov": 202606,
+      "saldo": 628
+    },
+    {
+      "competencia_mov": 202607,
+      "saldo": -528
+    },
+    {
+      "competencia_mov": 202608,
+      "saldo": 4452
+    }
+  ]
+}
