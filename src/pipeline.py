@@ -98,7 +98,8 @@ def etapa_1() -> dict:
     elif "indicador_exclusao" not in mov.columns:
         erros.avisar(
             "Exclusões não aplicadas: não há arquivo EXC em data/brutos e o MOV não tem "
-            "indicadordeexclusão. Premissa: a base '_Limpo' já vem sem os registros excluídos."
+            "indicadordeexclusão. Decisão da equipe: seguir sem os arquivos CAGEDEXC do MTE "
+            "(efeito medido em 10/11/2026: +90 no saldo de 12 meses de SC, +16 na seção C)."
         )
     mov, info_exc = trt.filtrar_exclusoes(mov, exc)
     info_exc["arquivo_exc"] = exc_path.name if exc_path else None

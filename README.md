@@ -9,6 +9,7 @@ python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python src/pipeline.py   # etapa 1: ingestão, validação e exclusões
 .venv/bin/python src/escopo.py     # validação do escopo da pergunta
+.venv/bin/python src/integracao.py # etapa 2: join CAGED x IBGE e saldo por 10 mil habitantes
 ```
 
 O arquivo `data/brutos/Novo_Caged_MOV_Limpo.csv` (cerca de 400 MB) não está no repositório por causa do limite de tamanho do GitHub. Coloque-o em `data/brutos/` antes de rodar.
@@ -20,4 +21,5 @@ O arquivo `data/brutos/Novo_Caged_MOV_Limpo.csv` (cerca de 400 MB) não está no
 - `src/erros.py`: erros e avisos do pipeline
 - `src/pipeline.py`: executa a etapa 1 e grava em `data/processados/`
 - `src/escopo.py`: números da validação do escopo
+- `src/integracao.py`: join pela chave `municipio_codigo` e métrica de saldo por 10 mil habitantes (`data/processados/saldo_municipio.csv`)
 - `docs/escopo_pergunta_negocio.md`: análise do escopo, decisões pendentes e limites

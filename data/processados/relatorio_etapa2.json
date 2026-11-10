@@ -1,0 +1,17 @@
+{
+  "chave": {
+    "municipios_caged": 295,
+    "municipios_ibge": 295,
+    "ibge_sem_caged": []
+  },
+  "estado": {
+    "saldo_sc": 41394,
+    "saldo_industria_sc": 1008,
+    "populacao_sc_2026": 8312759,
+    "saldo_por_10mil_hab_sc": 49.8,
+    "saldo_industria_por_10mil_hab_sc": 1.21
+  },
+  "municipios_baixo_volume": 0,
+  "municipios_baixo_volume_industria": 18,
+  "avisos": []
+}
