@@ -1,12 +1,21 @@
 """
-Lê as respostas do LLM, compara com a classificação por regra e mostra onde discordam.
+Lê as respostas dos modelos de IA e compara as classificações com as regras definidas no projeto.
 
 Uso:
     python3 importar_respostas.py --versao v1
 
-Entrada : llm/<versao>/respostas/lote_XX.txt  (uma linha por CBO: codigo;macrofamilia)
-Saída   : llm/<versao>/comparacao.csv   (todas as CBOs respondidas)
-          llm/<versao>/divergencias.csv (só onde LLM e regra discordam, as mais pesadas primeiro)
+Entrada:
+    llm/<versao>/respostas/lote_XX.txt
+    (uma linha por CBO, no formato codigo;macrofamilia)
+
+Saídas:
+    llm/<versao>/comparacao.csv
+    (reúne todas as CBOs respondidas e suas respectivas classificações)
+
+    llm/<versao>/divergencias.csv
+    (reúne as CBOs em que as classificações dos modelos de IA
+    diferem da classificação gerada pelas regras, ordenadas
+    pela quantidade de movimentações)
 """
 import argparse
 import glob
