@@ -9,8 +9,8 @@ Uso (no terminal, dentro da pasta do projeto):
 
 Modos:
     amostra     100 CBOs (60 mais frequentes + 40 aleatórias) -> pra TESTAR o prompt
-    principais  CBOs que cobrem 95% das movimentações (~444)  -> rodada principal
-    completo    todas as 2.207 CBOs
+    principais  seleciona CBOs com movimentações acumuladas próximas de 95%
+    completo    todas as 2.201 CBOs
 
 --versao escolhe o prompt (v1, v2...) e também o nome da pasta de saída.
 Quer testar outro prompt? Cria o PROMPT_V3 no código, adiciona em PROMPTS e roda com --versao v3.
@@ -20,10 +20,6 @@ import os
 import unicodedata
 import pandas as pd
 
-# =====================================================================
-# O PROMPT. É AQUI QUE VOCÊ MEXE PRA TESTAR VERSÕES DIFERENTES.
-# {CATEGORIAS} e {EXEMPLOS} são preenchidos sozinhos.
-# =====================================================================
 PROMPT_V1 = """Você é especialista em mercado de trabalho brasileiro e na CBO 2002 (Classificação Brasileira de Ocupações).
 
 Vou te passar uma lista de ocupações (código CBO e descrição). Classifique CADA ocupação em exatamente UMA das macrofamílias abaixo.
