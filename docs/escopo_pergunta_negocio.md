@@ -96,11 +96,3 @@ Recomendação: exigir pelo menos 30 movimentações por célula para calcular m
 ## 7. CBOs para o agrupamento por IA
 
 A seção C tem 1.467 CBOs distintos (482 famílias de 4 dígitos). Os 203 mais frequentes cobrem 90% das movimentações, o que bate com o "mais de 200 CBOs" do guia. Sugestão: mandar à IA esses 203 e agrupar o resto pela família de 4 dígitos.
-
-## Limites a declarar no pitch
-
-1. Exclusões (EXC) não aplicadas: premissa de que a base "_Limpo" já vem sem elas.
-2. Apagão medido por proxies, sem dados de vagas nem de estoque.
-3. Empresas de trabalho temporário (subclasse 7820500, 97.517 movimentações) ficam na seção N, mesmo quando o trabalhador atua na indústria.
-4. Regiões dependem de tabela externa do IBGE.
-5. Microdados sem identificador: não dá para seguir a trajetória de uma pessoa (quem saiu foi para onde).
