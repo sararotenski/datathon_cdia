@@ -1,0 +1,101 @@
+codigo,llm,descricao,regra,n_mov,concorda
+784205,Embalagem e Operação Industrial Geral,Alimentador de Linha de Producao,Embalagem e Operação Industrial Geral,270409,True
+514320,"Limpeza, Segurança e Conservação",Faxineiro (Desativado em 2010),"Limpeza, Segurança e Conservação",182626,True
+521110,Comércio e Atendimento,Vendedor de Comercio Varejista,Comércio e Atendimento,158462,True
+782510,Logística e Transporte,Motorista de Caminhao (Rotas Regionais e Internacionais),Logística e Transporte,111193,True
+411005,Administrativo e Financeiro,"Auxiliar de Escritorio, em Geral",Administrativo e Financeiro,103595,True
+421125,Comércio e Atendimento,Operador de Caixa,Comércio e Atendimento,99342,True
+411010,Administrativo e Financeiro,Assistente Administrativo,Administrativo e Financeiro,90487,True
+521140,Comércio e Atendimento,Atendente de Lojas e Mercados,Comércio e Atendimento,88736,True
+717020,Construção Civil e Mineração,Servente de Obras,Construção Civil e Mineração,76316,True
+513505,"Alimentação, Hospedagem e Serviços Pessoais",Auxiliar nos Serviços de Alimentação,"Alimentação, Hospedagem e Serviços Pessoais",72553,True
+521125,Comércio e Atendimento,Repositor de Mercadorias,Comércio e Atendimento,71826,True
+414105,Logística e Transporte,Almoxarife,Logística e Transporte,54169,True
+513435,"Alimentação, Hospedagem e Serviços Pessoais",Atendente de Lanchonete,"Alimentação, Hospedagem e Serviços Pessoais",49927,True
+715210,Construção Civil e Mineração,Pedreiro,Construção Civil e Mineração,47528,True
+422105,Administrativo e Financeiro,"Recepcionista, em Geral",Comércio e Atendimento,44796,False
+414140,Logística e Transporte,Auxiliar de Logistica,Logística e Transporte,41639,True
+513205,"Alimentação, Hospedagem e Serviços Pessoais",Cozinheiro Geral,"Alimentação, Hospedagem e Serviços Pessoais",38697,True
+848520,Alimentos e Bebidas (Indústria),Magarefe,Alimentos e Bebidas (Indústria),36330,True
+521135,Comércio e Atendimento,Frentista,Comércio e Atendimento,30590,True
+783225,Logística e Transporte,Ajudante de Motorista,Logística e Transporte,28430,True
+414110,Logística e Transporte,Armazenista,Logística e Transporte,27150,True
+513405,"Alimentação, Hospedagem e Serviços Pessoais",Garcom,"Alimentação, Hospedagem e Serviços Pessoais",27125,True
+622505,"Agropecuária, Pesca e Extração",Trabalhador no Cultivo de Arvores Frutiferas,"Agropecuária, Pesca e Extração",25869,True
+517330,"Limpeza, Segurança e Conservação",Vigilante,"Limpeza, Segurança e Conservação",25669,True
+784105,Embalagem e Operação Industrial Geral,"Embalador, a Mao",Embalagem e Operação Industrial Geral,25458,True
+354125,Comércio e Atendimento,Assistente de Vendas,Comércio e Atendimento,24910,True
+322205,Saúde,Tecnico de Enfermagem,Saúde,24322,True
+763210,"Têxtil, Confecção e Calçados",Costureiro na Confeccao em Serie,"Têxtil, Confecção e Calçados",21322,True
+414135,Logística e Transporte,Expedidor de Mercadorias,Logística e Transporte,20677,True
+763215,"Têxtil, Confecção e Calçados","Costureiro, a  Maquina  na Confeccao em Serie","Têxtil, Confecção e Calçados",19755,True
+715505,Construção Civil e Mineração,Carpinteiro,Construção Civil e Mineração,18967,True
+521130,Comércio e Atendimento,Atendente de Farmacia - Balconista,Comércio e Atendimento,18405,True
+724315,Metalmecânica e Eletroeletrônica,Soldador,Metalmecânica e Eletroeletrônica,17876,True
+848510,Alimentos e Bebidas (Indústria),Acougueiro,Alimentos e Bebidas (Indústria),17035,True
+783215,Logística e Transporte,Carregador (Veiculos de Transportes Terrestres),Logística e Transporte,16697,True
+414125,Logística e Transporte,Estoquista,Logística e Transporte,16629,True
+763125,"Têxtil, Confecção e Calçados",Ajudante de Confecção,"Têxtil, Confecção e Calçados",16267,True
+782310,Logística e Transporte,Motorista de Furgao ou Veiculo Similar,Logística e Transporte,15559,True
+521115,Comércio e Atendimento,Promotor de Vendas,Comércio e Atendimento,15298,True
+621005,"Agropecuária, Pesca e Extração",Trabalhador Agropecuario em Geral,"Agropecuária, Pesca e Extração",14949,True
+911305,Manutenção e Reparação,"Mecanico de Manutencao de Maquinas, em Geral",Manutenção e Reparação,14757,True
+413110,Administrativo e Financeiro,Auxiliar de Contabilidade,Administrativo e Financeiro,14408,True
+514120,"Limpeza, Segurança e Conservação",Zelador de Edificio,"Limpeza, Segurança e Conservação",14197,True
+513315,"Alimentação, Hospedagem e Serviços Pessoais",Camareiro  de Hotel,"Alimentação, Hospedagem e Serviços Pessoais",14102,True
+914405,Manutenção e Reparação,"Mecanico de Manutencao de Automoveis, Motocicletas e Veiculos Similares",Manutenção e Reparação,13830,True
+331110,Educação e Pesquisa,Auxiliar de Desenvolvimento Infantil,Educação e Pesquisa,13494,True
+414215,Logística e Transporte,Conferente de Carga e Descarga,Logística e Transporte,13131,True
+761815,"Têxtil, Confecção e Calçados",Revisor de Tecidos Acabados,"Têxtil, Confecção e Calçados",12562,True
+862150,Embalagem e Operação Industrial Geral,"Operador de Maquinas Fixas, em Geral",Embalagem e Operação Industrial Geral,12430,True
+782220,Logística e Transporte,Operador de Empilhadeira,Logística e Transporte,12080,True
+716610,Construção Civil e Mineração,Pintor de Obras,Construção Civil e Mineração,11976,True
+715615,Construção Civil e Mineração,Eletricista de Instalacoes,Construção Civil e Mineração,11791,True
+514225,"Limpeza, Segurança e Conservação",Trabalhador de Servicos de Limpeza e Conservacao de Areas Publicas,"Limpeza, Segurança e Conservação",11346,True
+724205,Metalmecânica e Eletroeletrônica,Montador de Estruturas Metalicas,Metalmecânica e Eletroeletrônica,11302,True
+514325,Manutenção e Reparação,Trabalhador da Manutenção de Edificações,"Limpeza, Segurança e Conservação",10702,False
+517420,"Limpeza, Segurança e Conservação",Vigia,"Limpeza, Segurança e Conservação",10287,True
+715525,Construção Civil e Mineração,Carpinteiro de Obras,Construção Civil e Mineração,10102,True
+223505,Saúde,Enfermeiro,Saúde,10026,True
+422310,Comércio e Atendimento,Operador de Telemarketing Ativo e Receptivo,Comércio e Atendimento,9916,True
+517410,"Limpeza, Segurança e Conservação",Porteiro de Edificios,"Limpeza, Segurança e Conservação",9834,True
+715115,Construção Civil e Mineração,Operador de Escavadeira,Construção Civil e Mineração,3607,True
+312320,Construção Civil e Mineração,Topografo,"Engenharia, TI e Técnicos Industriais",1278,False
+251605,Saúde,Assistente Social,Educação e Pesquisa,1101,False
+823320,"Química, Plástico e Minerais",Trabalhador da Elaboracao de Pre-Fabricados (Cimento Amianto),"Química, Plástico e Minerais",1072,True
+318805,"Madeira, Papel e Mobiliário",Projetista de Moveis,"Engenharia, TI e Técnicos Industriais",954,False
+516215,"Alimentação, Hospedagem e Serviços Pessoais",Mae Social,"Alimentação, Hospedagem e Serviços Pessoais",860,True
+395105,Educação e Pesquisa,Tecnico de Apoio em Pesquisa e Desenvolvimento (Exceto Agropecuario e Florestal),Educação e Pesquisa,672,True
+773110,"Madeira, Papel e Mobiliário",Operador de Serras no Desdobramento de Madeira,"Madeira, Papel e Mobiliário",666,True
+823125,"Química, Plástico e Minerais",Preparador de Esmaltes (Ceramica),"Química, Plástico e Minerais",603,True
+252725,Logística e Transporte,Analista de Gestao de Estoque,Administrativo e Financeiro,416,False
+332205,Educação e Pesquisa,Professor Pratico no Ensino Profissionalizante,Educação e Pesquisa,326,True
+761210,"Têxtil, Confecção e Calçados",Operador de Binadeira,"Têxtil, Confecção e Calçados",267,True
+322715,Forças Armadas e Não Identificado,(sem descrição no dicionário),Saúde,195,False
+253120,Administrativo e Financeiro,Analista de Negocios,"Direito, Comunicação, Cultura e Esporte",185,False
+731180,Metalmecânica e Eletroeletrônica,Operador de Linha de Montagem (Aparelhos Eletronicos),Metalmecânica e Eletroeletrônica,129,True
+314405,"Engenharia, TI e Técnicos Industriais",Tecnico de Manutencao de Sistemas e Instrumentos,"Engenharia, TI e Técnicos Industriais",128,True
+913105,Manutenção e Reparação,Mecanico de Manutencao de Aparelhos de Levantamento,Manutenção e Reparação,105,True
+311515,"Engenharia, TI e Técnicos Industriais","Tecnico de Utilidade (Producao e Distribuicao de Vapor, Gases, Oleos, Combustiveis, Energia)","Engenharia, TI e Técnicos Industriais",94,True
+631325,"Agropecuária, Pesca e Extração",Criador de Peixes,"Agropecuária, Pesca e Extração",90,True
+325210,Saúde,Técnico em Nutrição e Dietética,Saúde,87,True
+910130,Gestão e Direção,Supervisor de Manutencao de Maquinas Operatrizes e de Usinagem,Manutenção e Reparação,79,False
+954205,Manutenção e Reparação,Reparador de Aparelhos Eletrodomesticos (Exceto Imagem e Som),Manutenção e Reparação,79,True
+768325,"Alimentação, Hospedagem e Serviços Pessoais",Seleiro,"Têxtil, Confecção e Calçados",59,False
+223525,Saúde,Enfermeiro de Terapia Intensiva,Saúde,53,True
+810305,Alimentos e Bebidas (Indústria),Mestre de Producao Farmaceutica,"Química, Plástico e Minerais",47,False
+776415,"Madeira, Papel e Mobiliário","Confeccionador de Escovas, Pinceis e Produtos Similares (A Maquina)","Madeira, Papel e Mobiliário",45,True
+622510,"Agropecuária, Pesca e Extração",Trabalhador no Cultivo de Especies Frutiferas Rasteiras,"Agropecuária, Pesca e Extração",36,True
+311705,"Química, Plástico e Minerais",Colorista de Papel,"Engenharia, TI e Técnicos Industriais",21,False
+812105,"Direito, Comunicação, Cultura e Esporte",Pirotecnico,"Química, Plástico e Minerais",19,False
+776420,"Madeira, Papel e Mobiliário","Confeccionador de Moveis de Vime, Junco e Bambu","Madeira, Papel e Mobiliário",17,True
+765315,"Têxtil, Confecção e Calçados",Montador de Artefatos de Couro (Exceto Roupas e Calcados),"Têxtil, Confecção e Calçados",13,True
+717005,Construção Civil e Mineração,Demolidor de Edificacoes,Construção Civil e Mineração,8,True
+214330,"Engenharia, TI e Técnicos Industriais",Engenheiro Eletronico de Projetos,"Engenharia, TI e Técnicos Industriais",8,True
+782630,Logística e Transporte,Operador de Teleferico (Passageiros),Logística e Transporte,7,True
+376235,"Direito, Comunicação, Cultura e Esporte",Magico,"Direito, Comunicação, Cultura e Esporte",2,True
+391230,Logística e Transporte,Tecnico Operacional de Servicos de Correios,"Engenharia, TI e Técnicos Industriais",2,False
+122515,Gestão e Direção,Diretor de  Producao e Operacoes de Turismo,Gestão e Direção,2,True
+225285,Saúde,Médico Urologista,Saúde,2,True
+316310,Construção Civil e Mineração,Tecnico de Mineracao (Oleo e Petroleo),"Engenharia, TI e Técnicos Industriais",1,False
+322125,Saúde,Terapeuta Holístico,Saúde,1,True

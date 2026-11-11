@@ -1,0 +1,16 @@
+codigo,llm,descricao,regra,n_mov,concorda
+422105,Administrativo e Financeiro,"Recepcionista, em Geral",Comércio e Atendimento,44796,False
+514325,Manutenção e Reparação,Trabalhador da Manutenção de Edificações,"Limpeza, Segurança e Conservação",10702,False
+312320,Construção Civil e Mineração,Topografo,"Engenharia, TI e Técnicos Industriais",1278,False
+251605,Saúde,Assistente Social,Educação e Pesquisa,1101,False
+318805,"Madeira, Papel e Mobiliário",Projetista de Moveis,"Engenharia, TI e Técnicos Industriais",954,False
+252725,Logística e Transporte,Analista de Gestao de Estoque,Administrativo e Financeiro,416,False
+322715,Forças Armadas e Não Identificado,(sem descrição no dicionário),Saúde,195,False
+253120,Administrativo e Financeiro,Analista de Negocios,"Direito, Comunicação, Cultura e Esporte",185,False
+910130,Gestão e Direção,Supervisor de Manutencao de Maquinas Operatrizes e de Usinagem,Manutenção e Reparação,79,False
+768325,"Alimentação, Hospedagem e Serviços Pessoais",Seleiro,"Têxtil, Confecção e Calçados",59,False
+810305,Alimentos e Bebidas (Indústria),Mestre de Producao Farmaceutica,"Química, Plástico e Minerais",47,False
+311705,"Química, Plástico e Minerais",Colorista de Papel,"Engenharia, TI e Técnicos Industriais",21,False
+812105,"Direito, Comunicação, Cultura e Esporte",Pirotecnico,"Química, Plástico e Minerais",19,False
+391230,Logística e Transporte,Tecnico Operacional de Servicos de Correios,"Engenharia, TI e Técnicos Industriais",2,False
+316310,Construção Civil e Mineração,Tecnico de Mineracao (Oleo e Petroleo),"Engenharia, TI e Técnicos Industriais",1,False

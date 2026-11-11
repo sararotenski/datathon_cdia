@@ -73,7 +73,27 @@ REGRAS = {
     "0": "Forças Armadas e Não Identificado",
 }
 
+EXCECOES = {
+    "422105": "Comércio e Atendimento",
+    "514325": "Manutenção e Reparação",
+    "312320": "Construção Civil e Mineração",
+    "251605": "Saúde",
+    "318805": "Madeira, Papel e Mobiliário",
+    "252725": "Logística e Transporte",
+    "322715": "Saúde",
+    "253120": "Administrativo e Financeiro",
+    "910130": "Gestão e Direção",
+    "768325": "Têxtil, Confecção e Calçados",
+    "810305": "Química, Plástico e Minerais",
+    "311705": "Química, Plástico e Minerais",
+    "812105": "Química, Plástico e Minerais",
+    "391230": "Logística e Transporte",
+    "316310": "Construção Civil e Mineração",
+}
 def classificar(cod):
+    if cod in EXCECOES:
+        return EXCECOES[cod]
+
     for tam in range(len(cod), 0, -1):
         if cod[:tam] in REGRAS:
             return REGRAS[cod[:tam]]

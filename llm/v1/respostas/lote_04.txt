@@ -1,0 +1,25 @@
+253120;Gestão e Direção\
+823320;Química, Plástico e Minerais\
+122515;Gestão e Direção\
+391230;Logística e Transporte\
+312320;Construção Civil e Mineração\
+717005;Construção Civil e Mineração\
+773110;Madeira, Papel e Mobiliário\
+812105;Química, Plástico e Minerais\
+332205;Educação e Pesquisa\
+395105;Engenharia, TI e Técnicos Industriais\
+823125;Química, Plástico e Minerais\
+252725;Administrativo e Financeiro\
+765315;Têxtil, Confecção e Calçados\
+318805;Madeira, Papel e Mobiliário\
+913105;Manutenção e Reparação\
+376235;Direito, Comunicação, Cultura e Esporte\
+314405;Engenharia, TI e Técnicos Industriais\
+954205;Manutenção e Reparação\
+322715;Saúde\
+516215;Alimentação, Hospedagem e Serviços Pessoais\
+910130;Manutenção e Reparação\
+776420;Madeira, Papel e Mobiliário\
+223525;Saúde\
+810305;Química, Plástico e Minerais\
+715115;Construção Civil e Mineração

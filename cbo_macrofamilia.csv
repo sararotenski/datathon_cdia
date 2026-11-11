@@ -53,7 +53,7 @@ codigo,descricao,macrofamilia,grande_grupo
 715615,Eletricista de Instalacoes,Construção Civil e Mineração,7
 514225,Trabalhador de Servicos de Limpeza e Conservacao de Areas Publicas,"Limpeza, Segurança e Conservação",5
 724205,Montador de Estruturas Metalicas,Metalmecânica e Eletroeletrônica,7
-514325,Trabalhador da Manutenção de Edificações,"Limpeza, Segurança e Conservação",5
+514325,Trabalhador da Manutenção de Edificações,Manutenção e Reparação,5
 517420,Vigia,"Limpeza, Segurança e Conservação",5
 715525,Carpinteiro de Obras,Construção Civil e Mineração,7
 223505,Enfermeiro,Saúde,2
@@ -270,7 +270,7 @@ codigo,descricao,macrofamilia,grande_grupo
 731320,Instalador-Reparador de Linhas e Aparelhos de Telecomunicacoes,Metalmecânica e Eletroeletrônica,7
 623110,Trabalhador da Pecuaria (Bovinos Corte),"Agropecuária, Pesca e Extração",6
 300305,Tecnico em Eletromecanica,"Engenharia, TI e Técnicos Industriais",3
-312320,Topografo,"Engenharia, TI e Técnicos Industriais",3
+312320,Topografo,Construção Civil e Mineração,3
 301105,Tecnico de Laboratorio Industrial,"Engenharia, TI e Técnicos Industriais",3
 212410,Analista de Redes e de Comunicacao de Dados,"Engenharia, TI e Técnicos Industriais",2
 632120,Operador de Motosserra,"Agropecuária, Pesca e Extração",6
@@ -299,7 +299,7 @@ codigo,descricao,macrofamilia,grande_grupo
 239415,Pedagogo,Educação e Pesquisa,2
 421105,Atendente Comercial (Agencia Postal),Comércio e Atendimento,4
 818110,Auxiliar de Laboratorio de Analises Fisico-Quimicas,"Química, Plástico e Minerais",8
-251605,Assistente Social,Educação e Pesquisa,2
+251605,Assistente Social,Saúde,2
 841810,"Operador de Maquinas de Fabricacao de Doces, Salgados e Massas Alimenticias",Alimentos e Bebidas (Indústria),8
 712205,Cortador de Pedras,Construção Civil e Mineração,7
 732105,"Eletricista de Manutencao de Linhas Eletricas, Telefonicas e de Comunicacao de Dados",Metalmecânica e Eletroeletrônica,7
@@ -334,7 +334,7 @@ codigo,descricao,macrofamilia,grande_grupo
 253110,Redator de Publicidade,"Direito, Comunicação, Cultura e Esporte",2
 951305,Instalador de Sistemas Eletroeletronicos de Seguranca,Manutenção e Reparação,9
 318510,Desenhista Projetista de Construcao Civil,"Engenharia, TI e Técnicos Industriais",3
-318805,Projetista de Moveis,"Engenharia, TI e Técnicos Industriais",3
+318805,Projetista de Moveis,"Madeira, Papel e Mobiliário",3
 642015,Operador de Trator Florestal,"Agropecuária, Pesca e Extração",6
 765405,Trabalhador do Acabamento de Artefatos de Tecidos e Couros,"Têxtil, Confecção e Calçados",7
 519310,Esteticista de Animais Domesticos,"Alimentação, Hospedagem e Serviços Pessoais",5
@@ -537,7 +537,7 @@ codigo,descricao,macrofamilia,grande_grupo
 420125,Supervisor de Recepcionistas,Administrativo e Financeiro,4
 832135,Operador de Rebobinadeira na Fabricacao de Papel e Papelao,"Madeira, Papel e Mobiliário",8
 622005,Caseiro (Agricultura),"Agropecuária, Pesca e Extração",6
-252725,Analista de Gestao de Estoque,Administrativo e Financeiro,2
+252725,Analista de Gestao de Estoque,Logística e Transporte,2
 632015,Viveirista Florestal,"Agropecuária, Pesca e Extração",6
 821405,Encarregado de Acabamento de Chapas e Metais  (Tempera),Metalmecânica e Eletroeletrônica,8
 722310,"Macheiro, a  Maquina",Metalmecânica e Eletroeletrônica,7
@@ -760,7 +760,7 @@ codigo,descricao,macrofamilia,grande_grupo
 234435,Professor de Medicina,Educação e Pesquisa,2
 313415,"Encarregado de Manutencao de Instrumentos de Controle, Medicao e Similares","Engenharia, TI e Técnicos Industriais",3
 214405,Engenheiro Mecanico,"Engenharia, TI e Técnicos Industriais",2
-253120,Analista de Negocios,"Direito, Comunicação, Cultura e Esporte",2
+253120,Analista de Negocios,Administrativo e Financeiro,2
 811110,Operador de Maquina Misturadeira (Tratamentos Quimicos e Afins),"Química, Plástico e Minerais",8
 784125,Operador de Prensa de Enfardamento,Embalagem e Operação Industrial Geral,7
 214305,Engenheiro Eletricista,"Engenharia, TI e Técnicos Industriais",2
@@ -1063,7 +1063,7 @@ codigo,descricao,macrofamilia,grande_grupo
 721115,Modelador de Metais (Fundicao),Metalmecânica e Eletroeletrônica,7
 515325,Socioeducador,Saúde,5
 214005,Engenheiro Ambiental,"Engenharia, TI e Técnicos Industriais",2
-910130,Supervisor de Manutencao de Maquinas Operatrizes e de Usinagem,Manutenção e Reparação,9
+910130,Supervisor de Manutencao de Maquinas Operatrizes e de Usinagem,Gestão e Direção,9
 725020,Ajustador Mecanico em Bancada,Metalmecânica e Eletroeletrônica,7
 954205,Reparador de Aparelhos Eletrodomesticos (Exceto Imagem e Som),Manutenção e Reparação,9
 142535,Tecnólogo em Gestão da Tecnologia da Informação,Gestão e Direção,1
@@ -1476,7 +1476,7 @@ codigo,descricao,macrofamilia,grande_grupo
 212210,Engenheiro de Equipamentos em Computacao,"Engenharia, TI e Técnicos Industriais",2
 751120,Laminador de Metais Preciosos a  Mao,"Química, Plástico e Minerais",7
 766140,Gravador de Matriz Serigrafica,"Têxtil, Confecção e Calçados",7
-311705,Colorista de Papel,"Engenharia, TI e Técnicos Industriais",3
+311705,Colorista de Papel,"Química, Plástico e Minerais",3
 711305,Operador de Sonda de Percussao,Construção Civil e Mineração,7
 324125,Tecnologo Oftalmico,Saúde,3
 821330,Operador de Montagem de Cilindros e Mancais,Metalmecânica e Eletroeletrônica,8
@@ -2050,7 +2050,7 @@ codigo,descricao,macrofamilia,grande_grupo
 201115,Geneticista,Educação e Pesquisa,2
 517130,(sem descrição no dicionário),"Limpeza, Segurança e Conservação",5
 913125,(sem descrição no dicionário),Manutenção e Reparação,9
-391230,Tecnico Operacional de Servicos de Correios,"Engenharia, TI e Técnicos Industriais",3
+391230,Tecnico Operacional de Servicos de Correios,Logística e Transporte,3
 214250,Engenheiro Civil (Portos e Vias Navegaveis),"Engenharia, TI e Técnicos Industriais",2
 222105,Engenheiro Agricola,Saúde,2
 214735,Engenheiro de Minas (Processo),"Engenharia, TI e Técnicos Industriais",2
@@ -2166,7 +2166,7 @@ codigo,descricao,macrofamilia,grande_grupo
 213415,Geofisico,"Engenharia, TI e Técnicos Industriais",2
 613130,Criador de Equinos,"Agropecuária, Pesca e Extração",6
 782810,Tropeiro,Logística e Transporte,7
-316310,Tecnico de Mineracao (Oleo e Petroleo),"Engenharia, TI e Técnicos Industriais",3
+316310,Tecnico de Mineracao (Oleo e Petroleo),Construção Civil e Mineração,3
 223260,Cirurgiao Dentista - Radiologista,Saúde,2
 415120,Fitotecario,Administrativo e Financeiro,4
 723110,Normalizador de Metais e de Compositos,Metalmecânica e Eletroeletrônica,7

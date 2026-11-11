@@ -1,0 +1,67 @@
+Você é especialista em mercado de trabalho brasileiro e na CBO 2002 (Classificação Brasileira de Ocupações).
+
+Vou te passar uma lista de ocupações (código CBO e descrição). Classifique CADA ocupação em exatamente UMA das macrofamílias abaixo.
+
+MACROFAMÍLIAS (nome, seguido de o que entra nela):
+- Administrativo e Financeiro: trabalho de escritório, contabilidade, finanças, RH, secretariado, bancos
+- Agropecuária, Pesca e Extração: agricultura, pecuária, pesca, silvicultura, extrativismo vegetal
+- Alimentação, Hospedagem e Serviços Pessoais: cozinha, bares e restaurantes, hotelaria, beleza, cuidadores, serviços domésticos
+- Alimentos e Bebidas (Indústria): abate e frigoríficos, laticínios, panificação industrial, bebidas, processamento de alimentos
+- Comércio e Atendimento: vendas, caixa, repositores, atendimento ao público
+- Construção Civil e Mineração: trabalho em obras (pedreiro, servente, carpinteiro de obras, pintor de obras, eletricista de instalações, operador de escavadeira), mineração e petróleo
+- Direito, Comunicação, Cultura e Esporte: advogados, jornalistas, publicidade, artes, esporte, lazer
+- Educação e Pesquisa: professores, instrutores, pesquisadores, apoio à pesquisa
+- Embalagem e Operação Industrial Geral: alimentador de linha de produção, embalador, operador de máquinas fixas, caldeiras, utilidades industriais (vapor, energia)
+- Engenharia, TI e Técnicos Industriais: engenheiros, tecnologia da informação, técnicos industriais de nível médio, qualidade, segurança do trabalho
+- Forças Armadas e Não Identificado: militares e ocupações não identificadas
+- Gestão e Direção: gerentes, diretores e dirigentes
+- Limpeza, Segurança e Conservação: limpeza, vigilância, portaria, zeladoria, conservação de edifícios
+- Logística e Transporte: motoristas, ajudantes, almoxarifes, estoque, entregas, transporte
+- Madeira, Papel e Mobiliário: marcenaria e móveis (fábrica e projeto), serrarias, celulose e papel
+- Manutenção e Reparação: mecânicos e eletricistas de manutenção, reparação de veículos e máquinas
+- Metalmecânica e Eletroeletrônica: soldagem, usinagem, montagem metálica, fundição, montagem de eletroeletrônicos
+- Química, Plástico e Minerais: plástico, borracha, química, cerâmica, vidro, minerais não metálicos
+- Saúde: médicos, enfermagem, técnicos de saúde, odontologia, farmácia
+- Têxtil, Confecção e Calçados: tecelagem, costura, confecção, calçados, couro
+
+REGRAS:
+1. Use somente os nomes da lista acima, escritos exatamente como estão. Não invente categorias e NÃO copie a definição, só o nome.
+2. Decida pela atividade real da ocupação, olhando as definições. O código CBO ajuda (o 1º dígito indica o grande grupo), mas não é regra absoluta.
+3. Ocupações da indústria vão para a macrofamília do setor industrial correspondente. Ocupações de comércio e serviços vão para as macrofamílias de serviços. Trabalho feito em obras vai para Construção Civil, mesmo que o ofício também exista em fábricas (ex.: carpinteiro de obras).
+4. Se estiver em dúvida, escolha a mais provável. Nenhuma ocupação pode ficar sem classificação.
+5. Responda SOMENTE com uma linha por ocupação, no formato codigo;macrofamilia, sem cabeçalho, sem explicação e sem nenhum texto antes ou depois.
+
+EXEMPLOS DE RESPOSTA:
+741105;Metalmecânica e Eletroeletrônica
+761405;Têxtil, Confecção e Calçados
+421120;Comércio e Atendimento
+782715;Logística e Transporte
+223905;Saúde
+212315;Engenharia, TI e Técnicos Industriais
+
+OCUPAÇÕES PARA CLASSIFICAR (codigo | descricao):
+354125 | Assistente de Vendas
+322205 | Tecnico de Enfermagem
+763210 | Costureiro na Confeccao em Serie
+414135 | Expedidor de Mercadorias
+763215 | Costureiro, a  Maquina  na Confeccao em Serie
+715505 | Carpinteiro
+521130 | Atendente de Farmacia - Balconista
+724315 | Soldador
+848510 | Acougueiro
+783215 | Carregador (Veiculos de Transportes Terrestres)
+414125 | Estoquista
+763125 | Ajudante de Confecção
+782310 | Motorista de Furgao ou Veiculo Similar
+521115 | Promotor de Vendas
+621005 | Trabalhador Agropecuario em Geral
+911305 | Mecanico de Manutencao de Maquinas, em Geral
+413110 | Auxiliar de Contabilidade
+514120 | Zelador de Edificio
+513315 | Camareiro  de Hotel
+914405 | Mecanico de Manutencao de Automoveis, Motocicletas e Veiculos Similares
+331110 | Auxiliar de Desenvolvimento Infantil
+414215 | Conferente de Carga e Descarga
+761815 | Revisor de Tecidos Acabados
+862150 | Operador de Maquinas Fixas, em Geral
+782220 | Operador de Empilhadeira
