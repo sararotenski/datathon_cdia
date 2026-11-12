@@ -104,4 +104,3 @@ A seção C tem 1.467 CBOs distintos (482 famílias de 4 dígitos). Os 203 mais 
 3. Empresas de trabalho temporário (subclasse 7820500, 97.517 movimentações) ficam na seção N, mesmo quando o trabalhador atua na indústria.
 4. Regiões dependem de tabela externa do IBGE.
 5. Microdados sem identificador: não dá para seguir a trajetória de uma pessoa (quem saiu foi para onde).
-
