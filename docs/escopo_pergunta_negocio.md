@@ -104,3 +104,13 @@ A seção C tem 1.467 CBOs distintos (482 famílias de 4 dígitos). Os 203 mais 
 3. Empresas de trabalho temporário (subclasse 7820500, 97.517 movimentações) ficam na seção N, mesmo quando o trabalhador atua na indústria.
 4. Regiões dependem de tabela externa do IBGE.
 5. Microdados sem identificador: não dá para seguir a trajetória de uma pessoa (quem saiu foi para onde).
+
+```
+### Matriz de Especificação dos KPIs do Projeto
+
+| Indicador (KPI) | Fórmula Matemática | Fonte &amp; Campos | Recorte / Filtro | Categoria no Dashboard (Sarah) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Saldo Líquido de Vagas** | `SUM(saldomovimentação)` | CAGED: `saldomovimentação` | SC (`uf=42`), Indústria (`C, F, B`) | Visão Geral Executiva |
+| **Saldo por 10k Hab.** | `(Saldo / População) * 10.000` | CAGED + IBGE (`População estimada`) | Por Município / Microrregião | Mapa de Expansão e Apagão |
+| **Taxa de Turnover (%)** | `(Desligamentos / (Admissões + Desligamentos)) * 100` | CAGED: `saldomovimentação`, `tipomovimentação` | Por Setor CNAE e Município | Diagnóstico de Estabilidade |
+| **Diferencial Salarial (%)** | `((Salário_Adm - Salário_Dem) / Salário_Dem) * 100` | CAGED: `salário`, `saldomovimentação` | Por Grau de Instrução e CBO | Painel Socioeconômico |
