@@ -51,7 +51,7 @@ POLOS_INDUSTRIAIS = {
 }
 
 GRAUS_SUPERIOR = [9, 10, 11, 80]
-GRAU_MEDIO_COMPLETO = 7
+GRAUS_MEDIO_OU_MAIS = [7, 8, 9, 10, 11, 80]
 
 
 # ============================================================
@@ -224,7 +224,8 @@ def analisar_escolaridade(df, agrupadores):
             (
                 (
                     pl.col("grau_instrucao")
-                    >= GRAU_MEDIO_COMPLETO
+                    .is_in(GRAUS_MEDIO_OU_MAIS)
+                    
                 )
                 .filter(pl.col("movimento") == "admissao")
                 .mean() * 100
@@ -235,7 +236,7 @@ def analisar_escolaridade(df, agrupadores):
             (
                 (
                     pl.col("grau_instrucao")
-                    >= GRAU_MEDIO_COMPLETO
+                    .is_in(GRAUS_MEDIO_OU_MAIS)
                 )
                 .filter(pl.col("movimento") == "desligamento")
                 .mean() * 100
@@ -347,10 +348,15 @@ def main():
     salario_polo.write_csv(
         PASTA_SAIDA / "salario_por_polo.csv"
     )
+    # Base com escolaridade identificada.
+    df_escolaridade = df.filter(
+       pl.col("grau_instrucao").is_not_null()
+       & (pl.col("grau_instrucao") != 99)
+    )
 
     # Análise salarial por código de escolaridade.
     salario_escolaridade = analisar_salarios(
-        df,
+        df_escolaridade,
         ["grau_instrucao"]
     )
 
@@ -360,7 +366,7 @@ def main():
 
     # Análise salarial por polo e escolaridade.
     salario_cruzado = analisar_salarios(
-        df,
+        df_escolaridade,
         ["polo", "grau_instrucao"]
     )
 
