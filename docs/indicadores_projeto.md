@@ -1,7 +1,4 @@
-# Etapa 1 — Definição dos Indicadores do Projeto (KPIs)
-
-**Projeto:** Datathon 2026 — Raio-X do Mercado de Trabalho e Vagas Industriais em Santa Catarina  
-**Responsável:** Maria — Indicadores e Análises
+Definição dos Indicadores do Projeto (KPIs)
 
 ## 1. Objetivo
 
