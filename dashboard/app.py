@@ -44,7 +44,7 @@ ROTULO = {
 # Dados
 # --------------------------------------------------------------------------- #
 @st.cache_resource(show_spinner="Carregando a base…")
-def carregar() -> tuple[pl.DataFrame, pl.DataFrame, dict]:
+def carregar() -> tuple[pl.DataFrame, pl.DataFrame, dict, pl.DataFrame]:
     if not I.ARQ_BASE.exists():
         st.error("Base do dashboard não encontrada. Rode, nesta ordem: `src/pipeline.py`, "
                  "`src/integracao.py` e `src/indicadores.py`.")
@@ -52,7 +52,9 @@ def carregar() -> tuple[pl.DataFrame, pl.DataFrame, dict]:
     base = pl.read_parquet(I.ARQ_BASE)
     pop = I.populacao_por_regiao()
     malha = orientar_malha(json.loads(I.ARQ_MALHA.read_text(encoding="utf-8")))
-    return base, pop, malha
+    desc = pl.read_csv(I.ARQ_MACROFAMILIAS, infer_schema=False).select(
+        pl.col("codigo").str.zfill(6).alias("cbo2002_ocupacao"), "descricao")
+    return base, pop, malha, desc
 
 
 def orientar_malha(geo: dict) -> dict:
@@ -82,7 +84,7 @@ def fmt_num(v, casas=1, sinal=False) -> str:
     return s.replace(",", "X").replace(".", ",").replace("X", ".")
 
 
-base, pop, malha = carregar()
+base, pop, malha, descricoes_cbo = carregar()
 
 # --------------------------------------------------------------------------- #
 # Filtros
@@ -293,39 +295,46 @@ with aba2:
 # --------------------------------------------------------------------------- #
 with aba3:
     st.subheader("Que tipo de profissional está em falta ou sobrando?")
-    st.caption("Agrupamento provisório pelo grande grupo da CBO (1º dígito). "
-               "Será substituído pelas macrofamílias geradas por IA na etapa 3.")
+    st.caption("Ocupações agrupadas nas 20 macrofamílias da etapa de IA "
+               "(cbo_macrofamilia.csv; método em docs/metodologia_ia_cbo.md).")
     regs = ["Santa Catarina (todas)"] + sorted(df[col_regiao].cast(pl.String).unique().to_list())
     reg = st.selectbox(nivel, regs, key=f"ocup_{col_regiao}_{recorte}_{'|'.join(polos)}")
     d3 = df if reg == regs[0] else df.filter(pl.col(col_regiao).cast(pl.String) == reg)
-    occ = I.agregar(d3, ["cbo_grande_grupo", "nivel_qualificacao"]).with_columns(
-        pl.col("cbo_grande_grupo").cast(pl.String)).sort("saldo")
+    ref3 = I.referencia(d3)
+    occ = I.agregar(d3, ["macrofamilia_cbo"]).with_columns(
+        pl.col("macrofamilia_cbo").cast(pl.String)).filter(pl.col("movimentacoes") >= 100).sort("saldo")
     o1, o2 = st.columns(2)
     with o1:
-        fb = px.bar(occ.to_pandas(), x="saldo", y="cbo_grande_grupo", color="nivel_qualificacao",
-                    orientation="h", labels={"saldo": "Saldo de vagas", "cbo_grande_grupo": "",
-                                             "nivel_qualificacao": "Nível"},
-                    title="Saldo por grande grupo ocupacional")
-        fb.update_layout(height=420)
+        fb = px.bar(occ.to_pandas(), x="saldo", y="macrofamilia_cbo", orientation="h",
+                    color="pct_a_pedido", color_continuous_scale="OrRd",
+                    hover_data={"movimentacoes": True, "salario_admissao": ":.0f", "gap_escolaridade_pp": ":.1f"},
+                    labels={"saldo": "Saldo de vagas", "macrofamilia_cbo": "", "pct_a_pedido": "% a pedido",
+                            **ROTULO, "salario_admissao": "Sal. admissão"},
+                    title="Saldo por macrofamília (cor: % de desligamentos a pedido)")
+        fb.update_layout(height=560, coloraxis_colorbar=dict(orientation="h", y=-0.18, len=0.6,
+                                                              thickness=12, title_side="top"))
         st.plotly_chart(fb)
     with o2:
-        fr = px.scatter(occ.filter(pl.col("movimentacoes") >= 100).to_pandas(),
-                        x="salario_admissao", y="razao_salarial", size="movimentacoes",
-                        color="nivel_qualificacao", hover_name="cbo_grande_grupo",
-                        labels={"salario_admissao": "Salário mediano de admissão (R$)",
-                                "razao_salarial": "Salário adm ÷ desl", "nivel_qualificacao": "Nível"},
-                        title="Renda: quanto se paga ao contratar x ao desligar")
+        fr = px.scatter(occ.to_pandas(), x="gap_escolaridade_pp", y="razao_salarial", size="movimentacoes",
+                        color="saldo", color_continuous_scale="RdBu", color_continuous_midpoint=0,
+                        hover_name="macrofamilia_cbo",
+                        hover_data={"saldo": True, "pct_a_pedido": ":.1f", "salario_admissao": ":.0f"},
+                        labels={**ROTULO, "salario_admissao": "Sal. admissão"}, size_max=45,
+                        title="Renda × escolaridade de quem entra vs quem sai")
         fr.add_hline(y=1, line_dash="dot")
-        fr.update_layout(height=420)
+        fr.add_vline(x=0, line_dash="dot")
+        fr.update_layout(height=560)
         st.plotly_chart(fr)
+    st.caption("No gráfico da direita, quanto mais à esquerda, menor a escolaridade dos admitidos em relação "
+               "aos desligados; abaixo de 1, a reposição paga menos que o salário de quem sai.")
 
-    top = (I.agregar(d3, ["cbo2002_ocupacao"]).filter(pl.col("movimentacoes") >= 200)
-           .sort("saldo"))
+    top = (I.agregar(d3, ["cbo2002_ocupacao", "macrofamilia_cbo"]).filter(pl.col("movimentacoes") >= 200)
+           .join(descricoes_cbo, on="cbo2002_ocupacao", how="left").sort("saldo"))
     a, b = st.columns(2)
-    cfg = {"cbo2002_ocupacao": "CBO", "saldo": st.column_config.NumberColumn("Saldo", format="%+d"),
+    cfg = {"cbo2002_ocupacao": "CBO", "descricao": "Ocupação", "macrofamilia_cbo": "Macrofamília", "saldo": st.column_config.NumberColumn("Saldo", format="%+d"),
            "pct_a_pedido": st.column_config.NumberColumn("% a pedido", format="%.1f"),
            "salario_admissao": st.column_config.NumberColumn("Sal. admissão", format="R$ %.0f")}
-    sel_cols = ["cbo2002_ocupacao", "saldo", "pct_a_pedido", "salario_admissao"]
+    sel_cols = ["descricao", "macrofamilia_cbo", "saldo", "pct_a_pedido", "salario_admissao"]
     a.markdown("**CBOs que mais cresceram**")
     a.dataframe(top.tail(10).reverse().select(sel_cols).to_pandas(), hide_index=True, column_config=cfg)
     b.markdown("**CBOs que mais encolheram**")
@@ -356,6 +365,14 @@ with aba4:
             for causa in (r["causas"] or "").split(", "):
                 if causa in ACOES:
                     st.markdown(f"- {ACOES[causa]}")
+            cel = df.filter((pl.col(col_regiao).cast(pl.String) == r[col_regiao])
+                            & (pl.col("polo").cast(pl.String) == r["polo"]))
+            mf = I.agregar(cel, ["macrofamilia_cbo"]).filter(pl.col("movimentacoes") >= 200)
+            cresce = mf.filter(pl.col("saldo") > 0).sort("saldo", descending=True).head(3)
+            if cresce.height:
+                st.markdown("- **Onde focar** (macrofamílias que mais contratam no recorte): " + "; ".join(
+                    f"{m['macrofamilia_cbo']} ({fmt_int(m['saldo'])}, {fmt_num(m['pct_a_pedido'])}% a pedido, "
+                    f"gap {fmt_num(m['gap_escolaridade_pp'], 1, True)} p.p.)" for m in cresce.iter_rows(named=True)))
     retr = tab_pd[tab_pd["situacao"] == "Retração"]
     if len(retr):
         with st.container(border=True):
@@ -397,5 +414,5 @@ with aba5:
 2. Exclusões (arquivos CAGEDEXC do MTE) não aplicadas; efeito medido de +90 no saldo de SC.
 3. Trabalho temporário (subclasse 7820500) fica na seção N, fora da indústria, mesmo quando o trabalhador atua nela.
 4. Microdados sem identificador: não dá para seguir a trajetória de cada trabalhador.
-5. Agrupamento de ocupações provisório (grande grupo CBO) até a etapa de IA.
+5. Macrofamílias de CBO definidas com apoio de IA e regras; concordância de 85% por CBO e 97,5% ponderada por movimentações na amostra de validação (docs/metodologia_ia_cbo.md).
 """)

@@ -37,11 +37,14 @@ import sys
 import polars as pl
 
 import ingestao as ing
-from erros import ErroArquivo, ErroPipeline, ErroSchema, ErroValidacao
+from erros import ErroArquivo, ErroPipeline, ErroSchema, ErroValidacao, avisar
 
 ARQ_REGIOES = ing.DIR_BRUTOS / "regioes_ibge_sc.json"   # API de localidades do IBGE
 ARQ_MALHA = ing.DIR_BRUTOS / "malha_municipios_sc.geojson"  # API de malhas do IBGE
 ARQ_BASE = ing.DIR_PROCESSADOS / "base_dashboard.parquet"
+# Classificação dos CBOs em macrofamílias (etapa 3, docs/metodologia_ia_cbo.md).
+ARQ_MACROFAMILIAS = ing.RAIZ / "cbo_macrofamilia.csv"
+SEM_MACROFAMILIA = "Não classificado"
 
 SECOES_INDUSTRIA = {
     "B": "Indústria extrativa",
@@ -131,6 +134,24 @@ def carregar_regioes() -> pl.DataFrame:
     return df
 
 
+def carregar_macrofamilias() -> pl.DataFrame:
+    ing.checar_arquivo(ARQ_MACROFAMILIAS, "Macrofamílias de CBO (etapa de IA)")
+    try:
+        m = pl.read_csv(ARQ_MACROFAMILIAS, infer_schema=False)
+    except pl.exceptions.PolarsError as e:
+        raise ErroArquivo(f"'{ARQ_MACROFAMILIAS.name}' ilegível. {e}") from e
+    if not {"codigo", "macrofamilia"} <= set(m.columns):
+        raise ErroSchema(f"'{ARQ_MACROFAMILIAS.name}' precisa das colunas 'codigo' e 'macrofamilia'.")
+    m = m.select(
+        pl.col("codigo").str.strip_chars().str.zfill(6).alias("cbo2002_ocupacao"),
+        pl.col("macrofamilia").str.strip_chars().alias("macrofamilia_cbo"),
+    )
+    repetidos = m.filter(pl.col("cbo2002_ocupacao").is_duplicated())["cbo2002_ocupacao"].unique().to_list()
+    if repetidos:
+        raise ErroValidacao(f"'{ARQ_MACROFAMILIAS.name}': CBO repetido: {repetidos[:10]}")
+    return m
+
+
 def construir_base() -> pl.DataFrame:
     origem = ing.DIR_PROCESSADOS / "caged_territorial.parquet"
     if not origem.exists():
@@ -156,12 +177,20 @@ def construir_base() -> pl.DataFrame:
         cbo_grande_grupo=gg.replace_strict(GRANDE_GRUPO_CBO, default="Não classificado"),
         nivel_qualificacao=gg.replace_strict(NIVEL_QUALIFICACAO, default="Outros"),
         salario=pl.col("salario").cast(pl.Float32),
-    ).join(regioes, on="municipio_codigo", how="left", validate="m:1")
+    ).join(regioes, on="municipio_codigo", how="left", validate="m:1") \
+     .join(carregar_macrofamilias(), on="cbo2002_ocupacao", how="left", validate="m:1") \
+     .with_columns(pl.col("macrofamilia_cbo").fill_null(SEM_MACROFAMILIA))
+
+    sem_macro = df.filter(pl.col("macrofamilia_cbo") == SEM_MACROFAMILIA).height
+    if sem_macro:
+        avisar(f"{sem_macro:,} movimentação(ões) com CBO fora de '{ARQ_MACROFAMILIAS.name}' "
+               f"(marcadas como '{SEM_MACROFAMILIA}').")
 
     sem_regiao = df.filter(pl.col("mesorregiao").is_null()).height
     if sem_regiao:
         raise ErroValidacao(f"{sem_regiao:,} linha(s) sem região IBGE após o join.")
     cat = ["municipio_nome", "secao", "secao_nome", "polo", "cbo_grande_grupo", "nivel_qualificacao",
+           "macrofamilia_cbo",
            "mesorregiao", "microrregiao", "regiao_intermediaria", "regiao_imediata", "divisao"]
     return df.with_columns(pl.col(cat).cast(pl.Categorical))
 
