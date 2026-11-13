@@ -1,0 +1,71 @@
+polo,grau_instrucao,total_movimentacoes,n_admissoes,n_desligamentos,mediana_admitidos,mediana_desligados,diferencial_salarial_pct
+"Madeira, papel e móveis",80,330,141,189,4400.0,5601.69,-21.45
+Outras,80,164,76,88,5100.0,6315.52,-19.25
+Eletroeletrônico,9,3298,1519,1779,3365.61,4080.93,-17.53
+"Madeira, papel e móveis",9,3055,1396,1659,2814.38,3323.1,-15.31
+Agroindústria,10,94,50,44,4673.5,5444.02,-14.15
+Metalmecânico,9,9414,4509,4905,3510.0,4000.0,-12.25
+Agroindústria,80,825,382,443,4676.46,5262.52,-11.14
+Agroindústria,9,6501,3158,3343,2700.0,3005.24,-10.16
+"Química, plástico e minerais não metálicos",9,5713,2711,3002,3329.37,3700.0,-10.02
+"Química, plástico e minerais não metálicos",80,832,388,444,5500.0,6050.97,-9.11
+"Têxtil, vestuário e couro",80,756,334,422,4767.36,5217.82,-8.63
+Eletroeletrônico,80,592,252,340,6000.0,6500.0,-7.69
+Metalmecânico,80,1318,610,708,5634.06,6087.44,-7.45
+"Madeira, papel e móveis",1,503,180,323,1980.08,2130.0,-7.04
+Eletroeletrônico,8,2357,1113,1244,2514.6,2703.98,-7.0
+Outras,9,1095,520,575,2800.0,3000.0,-6.67
+"Têxtil, vestuário e couro",9,8000,3683,4317,3190.0,3411.5,-6.49
+Metalmecânico,8,6467,3174,3293,2620.2,2800.0,-6.42
+Outras,5,1198,575,623,2030.6,2156.0,-5.82
+Eletroeletrônico,7,24698,12789,11909,2235.2,2370.0,-5.69
+Metalmecânico,5,17473,9190,8283,2279.2,2414.35,-5.6
+Eletroeletrônico,3,178,91,87,2217.6,2336.4,-5.08
+Outras,8,1071,508,563,2209.3,2325.4,-4.99
+"Madeira, papel e móveis",8,2563,1166,1397,2234.0,2349.6,-4.92
+"Madeira, papel e móveis",3,1903,870,1033,2000.0,2103.2,-4.91
+Metalmecânico,7,111205,56889,54316,2423.0,2545.1,-4.8
+"Madeira, papel e móveis",7,53708,26469,27239,2076.8,2175.8,-4.55
+"Têxtil, vestuário e couro",4,11485,5714,5771,2010.0,2104.02,-4.47
+Agroindústria,3,3759,2076,1683,2043.1,2138.4,-4.46
+"Química, plástico e minerais não metálicos",1,535,234,301,2200.0,2300.0,-4.35
+Metalmecânico,6,19950,10334,9616,2200.0,2300.0,-4.35
+Metalmecânico,2,1774,837,937,2349.6,2450.7,-4.13
+"Têxtil, vestuário e couro",5,19240,9079,10161,2110.62,2200.0,-4.06
+Eletroeletrônico,2,186,85,101,2217.6,2310.0,-4.0
+Agroindústria,7,87380,42270,45110,2072.0,2156.23,-3.91
+"Têxtil, vestuário e couro",3,2003,915,1088,2130.0,2215.75,-3.87
+Metalmecânico,3,1422,694,728,2407.7,2501.4,-3.75
+Metalmecânico,4,7555,3717,3838,2310.0,2398.62,-3.69
+"Têxtil, vestuário e couro",8,6940,3275,3665,2300.0,2384.27,-3.53
+Outras,7,12332,6079,6253,2100.0,2176.0,-3.49
+"Madeira, papel e móveis",6,15271,7778,7493,1961.0,2030.88,-3.44
+"Química, plástico e minerais não metálicos",8,3928,1883,2045,2420.0,2500.0,-3.2
+"Têxtil, vestuário e couro",2,2556,1199,1357,2067.0,2135.2,-3.19
+Eletroeletrônico,6,5529,3167,2362,2118.6,2186.76,-3.12
+"Madeira, papel e móveis",5,11589,5562,6027,2031.0,2095.0,-3.05
+Agroindústria,5,25429,13489,11940,2035.0,2098.8,-3.04
+"Têxtil, vestuário e couro",7,111445,54023,57422,2134.0,2200.0,-3.0
+"Química, plástico e minerais não metálicos",3,1407,649,758,2200.0,2266.0,-2.91
+Agroindústria,8,4736,2340,2396,2206.02,2271.25,-2.87
+"Química, plástico e minerais não metálicos",7,66631,33246,33385,2229.8,2292.0,-2.71
+"Química, plástico e minerais não metálicos",2,1640,754,886,2208.8,2266.0,-2.52
+"Têxtil, vestuário e couro",6,31565,15938,15627,2000.0,2050.4,-2.46
+"Madeira, papel e móveis",4,8857,4345,4512,2002.0,2050.7,-2.37
+"Química, plástico e minerais não metálicos",4,6913,3464,3449,2217.6,2263.78,-2.04
+Agroindústria,2,4244,2126,2118,2061.62,2104.0,-2.01
+Agroindústria,1,13290,8565,4725,2156.23,2199.58,-1.97
+Agroindústria,6,25134,13310,11824,2000.0,2038.78,-1.9
+"Química, plástico e minerais não metálicos",5,11701,5912,5789,2200.0,2242.23,-1.88
+"Química, plástico e minerais não metálicos",6,15854,8258,7596,2163.7,2205.0,-1.87
+Outras,6,2487,1302,1185,2000.0,2035.0,-1.72
+Outras,4,629,322,307,2030.6,2065.8,-1.7
+Agroindústria,4,13099,6789,6310,2035.0,2070.0,-1.69
+Eletroeletrônico,4,1563,867,696,2150.0,2186.76,-1.68
+Outras,3,107,46,61,2115.0,2150.0,-1.63
+"Madeira, papel e móveis",2,2399,1101,1298,2034.0,2065.92,-1.55
+"Têxtil, vestuário e couro",1,883,363,520,2031.25,2058.55,-1.33
+Eletroeletrônico,5,3678,2051,1627,2219.8,2226.0,-0.28
+Outras,2,129,59,70,2109.73,2109.73,0.0
+Metalmecânico,10,87,41,46,8500.0,8470.81,0.34
+Metalmecânico,1,1267,745,522,2620.2,2500.0,4.81
