@@ -1,0 +1,25 @@
+716610;Construção Civil e Mineração\
+715615;Construção Civil e Mineração\
+514225;Limpeza, Segurança e Conservação\
+724205;Metalmecânica e Eletroeletrônica\
+514325;Manutenção e Reparação\
+517420;Limpeza, Segurança e Conservação\
+715525;Construção Civil e Mineração\
+223505;Saúde\
+422310;Comércio e Atendimento\
+517410;Limpeza, Segurança e Conservação\
+225285;Saúde\
+782630;Logística e Transporte\
+311705;Química, Plástico e Minerais\
+322125;Saúde\
+311515;Engenharia, TI e Técnicos Industriais\
+761210;Têxtil, Confecção e Calçados\
+325210;Saúde\
+251605;Saúde\
+214330;Engenharia, TI e Técnicos Industriais\
+776415;Madeira, Papel e Mobiliário\
+731180;Metalmecânica e Eletroeletrônica\
+622510;Agropecuária, Pesca e Extração\
+316310;Construção Civil e Mineração\
+768325;Alimentação, Hospedagem e Serviços Pessoais\
+631325;Agropecuária, Pesca e Extração

@@ -1,0 +1,67 @@
+Você é especialista em mercado de trabalho brasileiro e na CBO 2002 (Classificação Brasileira de Ocupações).
+
+Vou te passar uma lista de ocupações (código CBO e descrição). Classifique CADA ocupação em exatamente UMA das macrofamílias abaixo.
+
+MACROFAMÍLIAS (use o nome exatamente como está escrito):
+- Administrativo e Financeiro
+- Agropecuária, Pesca e Extração
+- Alimentação, Hospedagem e Serviços Pessoais
+- Alimentos e Bebidas (Indústria)
+- Comércio e Atendimento
+- Construção Civil e Mineração
+- Direito, Comunicação, Cultura e Esporte
+- Educação e Pesquisa
+- Embalagem e Operação Industrial Geral
+- Engenharia, TI e Técnicos Industriais
+- Forças Armadas e Não Identificado
+- Gestão e Direção
+- Limpeza, Segurança e Conservação
+- Logística e Transporte
+- Madeira, Papel e Mobiliário
+- Manutenção e Reparação
+- Metalmecânica e Eletroeletrônica
+- Química, Plástico e Minerais
+- Saúde
+- Têxtil, Confecção e Calçados
+
+REGRAS:
+1. Use somente os nomes da lista acima. Não invente categorias.
+2. Decida pela atividade real da ocupação. O código CBO ajuda (o 1º dígito indica o grande grupo), mas não é regra absoluta.
+3. Ocupações da indústria vão para a macrofamília do setor industrial correspondente. Ocupações de comércio e serviços vão para as macrofamílias de serviços.
+4. Se estiver em dúvida, escolha a mais provável. Nenhuma ocupação pode ficar sem classificação.
+5. Responda SOMENTE com uma linha por ocupação, no formato codigo;macrofamilia, sem cabeçalho, sem explicação e sem nenhum texto antes ou depois.
+
+EXEMPLOS DE RESPOSTA:
+741105;Metalmecânica e Eletroeletrônica
+761405;Têxtil, Confecção e Calçados
+421120;Comércio e Atendimento
+782715;Logística e Transporte
+223905;Saúde
+212315;Engenharia, TI e Técnicos Industriais
+
+OCUPAÇÕES PARA CLASSIFICAR (codigo | descricao):
+354125 | Assistente de Vendas
+322205 | Tecnico de Enfermagem
+763210 | Costureiro na Confeccao em Serie
+414135 | Expedidor de Mercadorias
+763215 | Costureiro, a  Maquina  na Confeccao em Serie
+715505 | Carpinteiro
+521130 | Atendente de Farmacia - Balconista
+724315 | Soldador
+848510 | Acougueiro
+783215 | Carregador (Veiculos de Transportes Terrestres)
+414125 | Estoquista
+763125 | Ajudante de Confecção
+782310 | Motorista de Furgao ou Veiculo Similar
+521115 | Promotor de Vendas
+621005 | Trabalhador Agropecuario em Geral
+911305 | Mecanico de Manutencao de Maquinas, em Geral
+413110 | Auxiliar de Contabilidade
+514120 | Zelador de Edificio
+513315 | Camareiro  de Hotel
+914405 | Mecanico de Manutencao de Automoveis, Motocicletas e Veiculos Similares
+331110 | Auxiliar de Desenvolvimento Infantil
+414215 | Conferente de Carga e Descarga
+761815 | Revisor de Tecidos Acabados
+862150 | Operador de Maquinas Fixas, em Geral
+782220 | Operador de Empilhadeira

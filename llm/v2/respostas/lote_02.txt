@@ -1,0 +1,25 @@
+354125;Comércio e Atendimento\
+322205;Saúde\
+763210;Têxtil, Confecção e Calçados\
+414135;Logística e Transporte\
+763215;Têxtil, Confecção e Calçados\
+715505;Construção Civil e Mineração\
+521130;Comércio e Atendimento\
+724315;Metalmecânica e Eletroeletrônica\
+848510;Alimentos e Bebidas (Indústria)\
+783215;Logística e Transporte\
+414125;Logística e Transporte\
+763125;Têxtil, Confecção e Calçados\
+782310;Logística e Transporte\
+521115;Comércio e Atendimento\
+621005;Agropecuária, Pesca e Extração\
+911305;Manutenção e Reparação\
+413110;Administrativo e Financeiro\
+514120;Limpeza, Segurança e Conservação\
+513315;Alimentação, Hospedagem e Serviços Pessoais\
+914405;Manutenção e Reparação\
+331110;Educação e Pesquisa\
+414215;Logística e Transporte\
+761815;Têxtil, Confecção e Calçados\
+862150;Embalagem e Operação Industrial Geral\
+782220;Logística e Transporte

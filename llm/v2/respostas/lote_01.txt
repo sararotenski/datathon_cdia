@@ -1,0 +1,25 @@
+784205;Embalagem e Operação Industrial Geral\
+514320;Limpeza, Segurança e Conservação\
+521110;Comércio e Atendimento\
+782510;Logística e Transporte\
+411005;Administrativo e Financeiro\
+421125;Comércio e Atendimento\
+411010;Administrativo e Financeiro\
+521140;Comércio e Atendimento\
+717020;Construção Civil e Mineração\
+513505;Alimentação, Hospedagem e Serviços Pessoais\
+521125;Comércio e Atendimento\
+414105;Logística e Transporte\
+513435;Alimentação, Hospedagem e Serviços Pessoais\
+715210;Construção Civil e Mineração\
+422105;Administrativo e Financeiro\
+414140;Logística e Transporte\
+513205;Alimentação, Hospedagem e Serviços Pessoais\
+848520;Alimentos e Bebidas (Indústria)\
+521135;Comércio e Atendimento\
+783225;Logística e Transporte\
+414110;Logística e Transporte\
+513405;Alimentação, Hospedagem e Serviços Pessoais\
+622505;Agropecuária, Pesca e Extração\
+517330;Limpeza, Segurança e Conservação\
+784105;Embalagem e Operação Industrial Geral

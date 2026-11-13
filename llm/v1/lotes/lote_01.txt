@@ -1,0 +1,67 @@
+Você é especialista em mercado de trabalho brasileiro e na CBO 2002 (Classificação Brasileira de Ocupações).
+
+Vou te passar uma lista de ocupações (código CBO e descrição). Classifique CADA ocupação em exatamente UMA das macrofamílias abaixo.
+
+MACROFAMÍLIAS (use o nome exatamente como está escrito):
+- Administrativo e Financeiro
+- Agropecuária, Pesca e Extração
+- Alimentação, Hospedagem e Serviços Pessoais
+- Alimentos e Bebidas (Indústria)
+- Comércio e Atendimento
+- Construção Civil e Mineração
+- Direito, Comunicação, Cultura e Esporte
+- Educação e Pesquisa
+- Embalagem e Operação Industrial Geral
+- Engenharia, TI e Técnicos Industriais
+- Forças Armadas e Não Identificado
+- Gestão e Direção
+- Limpeza, Segurança e Conservação
+- Logística e Transporte
+- Madeira, Papel e Mobiliário
+- Manutenção e Reparação
+- Metalmecânica e Eletroeletrônica
+- Química, Plástico e Minerais
+- Saúde
+- Têxtil, Confecção e Calçados
+
+REGRAS:
+1. Use somente os nomes da lista acima. Não invente categorias.
+2. Decida pela atividade real da ocupação. O código CBO ajuda (o 1º dígito indica o grande grupo), mas não é regra absoluta.
+3. Ocupações da indústria vão para a macrofamília do setor industrial correspondente. Ocupações de comércio e serviços vão para as macrofamílias de serviços.
+4. Se estiver em dúvida, escolha a mais provável. Nenhuma ocupação pode ficar sem classificação.
+5. Responda SOMENTE com uma linha por ocupação, no formato codigo;macrofamilia, sem cabeçalho, sem explicação e sem nenhum texto antes ou depois.
+
+EXEMPLOS DE RESPOSTA:
+741105;Metalmecânica e Eletroeletrônica
+761405;Têxtil, Confecção e Calçados
+421120;Comércio e Atendimento
+782715;Logística e Transporte
+223905;Saúde
+212315;Engenharia, TI e Técnicos Industriais
+
+OCUPAÇÕES PARA CLASSIFICAR (codigo | descricao):
+784205 | Alimentador de Linha de Producao
+514320 | Faxineiro (Desativado em 2010)
+521110 | Vendedor de Comercio Varejista
+782510 | Motorista de Caminhao (Rotas Regionais e Internacionais)
+411005 | Auxiliar de Escritorio, em Geral
+421125 | Operador de Caixa
+411010 | Assistente Administrativo
+521140 | Atendente de Lojas e Mercados
+717020 | Servente de Obras
+513505 | Auxiliar nos Serviços de Alimentação
+521125 | Repositor de Mercadorias
+414105 | Almoxarife
+513435 | Atendente de Lanchonete
+715210 | Pedreiro
+422105 | Recepcionista, em Geral
+414140 | Auxiliar de Logistica
+513205 | Cozinheiro Geral
+848520 | Magarefe
+521135 | Frentista
+783225 | Ajudante de Motorista
+414110 | Armazenista
+513405 | Garcom
+622505 | Trabalhador no Cultivo de Arvores Frutiferas
+517330 | Vigilante
+784105 | Embalador, a Mao
