@@ -1,0 +1,119 @@
+tipo_analise,categoria,competencia,admissoes,desligamentos,saldo
+divisao_cnae,Divisão 81,,64320,59456,4864
+divisao_cnae,Divisão 10,,90790,86051,4739
+divisao_cnae,Divisão 73,,15304,11533,3771
+divisao_cnae,Divisão 86,,53995,50328,3667
+divisao_cnae,Divisão 82,,79766,76456,3310
+divisao_cnae,Divisão 46,,76273,73130,3143
+divisao_cnae,Divisão 78,,61923,59015,2908
+divisao_cnae,Divisão 52,,30907,28080,2827
+divisao_cnae,Divisão 49,,78775,76226,2549
+divisao_cnae,Divisão 47,,282798,280598,2200
+divisao_cnae,Divisão 27,,17509,15491,2018
+divisao_cnae,Divisão 43,,49099,47207,1892
+divisao_cnae,Divisão 94,,14889,13250,1639
+divisao_cnae,Divisão 33,,14489,12871,1618
+divisao_cnae,Divisão 01,,41853,40496,1357
+divisao_cnae,Divisão 71,,14044,12837,1207
+divisao_cnae,Divisão 62,,18803,17752,1051
+divisao_cnae,Divisão 30,,5212,4183,1029
+divisao_cnae,Divisão 29,,13594,12761,833
+divisao_cnae,Divisão 80,,18180,17370,810
+divisao_cnae,Divisão 69,,17195,16480,715
+divisao_cnae,Divisão 56,,83219,82515,704
+divisao_cnae,Divisão 17,,10984,10464,520
+divisao_cnae,Divisão 88,,2696,2215,481
+divisao_cnae,Divisão 87,,6456,5978,478
+divisao_cnae,Divisão 74,,3649,3229,420
+divisao_cnae,Divisão 24,,8668,8285,383
+divisao_cnae,Divisão 61,,5136,4801,335
+divisao_cnae,Divisão 20,,7122,6839,283
+divisao_cnae,Divisão 85,,36832,36553,279
+divisao_cnae,Divisão 70,,3693,3416,277
+divisao_cnae,Divisão 22,,32906,32641,265
+divisao_cnae,Divisão 38,,10597,10348,249
+divisao_cnae,Divisão 75,,1804,1568,236
+divisao_cnae,Divisão 77,,7724,7501,223
+divisao_cnae,Divisão 55,,16107,15897,210
+divisao_cnae,Divisão 65,,1748,1542,206
+divisao_cnae,Divisão 72,,609,417,192
+divisao_cnae,Divisão 93,,11663,11488,175
+divisao_cnae,Divisão 45,,39149,38979,170
+divisao_cnae,Divisão 50,,630,544,86
+divisao_cnae,Divisão 08,,2201,2120,81
+divisao_cnae,Divisão 37,,440,360,80
+divisao_cnae,Divisão 68,,6132,6071,61
+divisao_cnae,Divisão 21,,1143,1108,35
+divisao_cnae,Divisão 63,,2778,2744,34
+divisao_cnae,Divisão 59,,958,930,28
+divisao_cnae,Divisão 19,,101,78,23
+divisao_cnae,Divisão 35,,1128,1114,14
+divisao_cnae,Divisão 39,,48,36,12
+divisao_cnae,Divisão 51,,172,163,9
+divisao_cnae,Divisão 97,,144,137,7
+divisao_cnae,Divisão 06,,2,0,2
+divisao_cnae,Divisão 07,,16,17,-1
+divisao_cnae,Divisão 99,,4,7,-3
+divisao_cnae,Divisão 11,,2931,2939,-8
+divisao_cnae,Divisão 92,,29,41,-12
+divisao_cnae,Divisão 79,,1364,1377,-13
+divisao_cnae,Divisão 90,,520,548,-28
+divisao_cnae,Divisão 03,,4576,4618,-42
+divisao_cnae,Divisão 41,,68931,68989,-58
+divisao_cnae,Divisão 96,,8348,8415,-67
+divisao_cnae,Divisão 58,,933,1010,-77
+divisao_cnae,Divisão 09,,150,231,-81
+divisao_cnae,Divisão 60,,1023,1113,-90
+divisao_cnae,Divisão 36,,1030,1127,-97
+divisao_cnae,Divisão 28,,22866,22964,-98
+divisao_cnae,Divisão 64,,7557,7664,-107
+divisao_cnae,Divisão 32,,6591,6708,-117
+divisao_cnae,Divisão 95,,1914,2041,-127
+divisao_cnae,Divisão 91,,582,725,-143
+divisao_cnae,Divisão 05,,292,447,-155
+divisao_cnae,Divisão 18,,2930,3110,-180
+divisao_cnae,Divisão 12,,1031,1220,-189
+divisao_cnae,Divisão 53,,1251,1456,-205
+divisao_cnae,Divisão 66,,4133,4362,-229
+divisao_cnae,Divisão 02,,3856,4089,-233
+divisao_cnae,Divisão 42,,18768,19069,-301
+divisao_cnae,Divisão 25,,26054,26360,-306
+divisao_cnae,Divisão 26,,4483,4855,-372
+divisao_cnae,Divisão 84,,8788,9292,-504
+divisao_cnae,Divisão 15,,4123,4675,-552
+divisao_cnae,Divisão 13,,33014,33807,-793
+divisao_cnae,Divisão 23,,16325,17167,-842
+divisao_cnae,Divisão 31,,15555,16874,-1319
+divisao_cnae,Divisão 16,,22522,23913,-1391
+divisao_cnae,Divisão 14,,57494,62065,-4571
+polo_industrial,Agroindústria,,94752,90210,4542
+polo_industrial,Metalmecânico,,90883,87424,3459
+polo_industrial,Eletroeletrônico,,21992,20346,1646
+polo_industrial,"Química, plástico e minerais não metálicos",,57597,57833,-236
+polo_industrial,Outras,,9521,9818,-297
+polo_industrial,"Madeira, papel e móveis",,49061,51251,-2190
+polo_industrial,"Têxtil, vestuário e couro",,94631,100547,-5916
+evolucao_mensal,Total da base,202509,145487,134106,11381
+evolucao_mensal,Total da base,202510,147401,140604,6797
+evolucao_mensal,Total da base,202603,171248,154302,16946
+evolucao_mensal,Total da base,202605,138608,138714,-106
+evolucao_mensal,Total da base,202607,141878,142406,-528
+evolucao_mensal,Total da base,202608,137222,132770,4452
+evolucao_mensal,Total da base,202511,124408,119294,5114
+evolucao_mensal,Total da base,202512,91884,140500,-48616
+evolucao_mensal,Total da base,202602,169504,146796,22708
+evolucao_mensal,Total da base,202606,138137,137509,628
+evolucao_mensal,Total da base,202601,161299,141419,19880
+evolucao_mensal,Total da base,202604,149265,146527,2738
+evolucao_mensal,Indústria de transformação,202509,34801,34594,207
+evolucao_mensal,Indústria de transformação,202603,43929,38325,5604
+evolucao_mensal,Indústria de transformação,202604,38410,37053,1357
+evolucao_mensal,Indústria de transformação,202608,36191,34530,1661
+evolucao_mensal,Indústria de transformação,202510,33014,35022,-2008
+evolucao_mensal,Indústria de transformação,202511,24443,28186,-3743
+evolucao_mensal,Indústria de transformação,202512,12391,32591,-20200
+evolucao_mensal,Indústria de transformação,202601,44802,33375,11427
+evolucao_mensal,Indústria de transformação,202602,42426,36701,5725
+evolucao_mensal,Indústria de transformação,202605,35541,35383,158
+evolucao_mensal,Indústria de transformação,202606,35654,34797,857
+evolucao_mensal,Indústria de transformação,202607,36835,36872,-37

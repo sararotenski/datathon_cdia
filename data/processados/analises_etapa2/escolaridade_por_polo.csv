@@ -1,0 +1,8 @@
+polo,n_admissoes,n_desligamentos,pct_medio_ou_mais_admitidos,pct_medio_ou_mais_desligados,pct_superior_admitidos,pct_superior_desligados,diferenca_medio_ou_mais_pp,diferenca_superior_pp
+Metalmecânico,90883,87424,71.89,72.57,5.7,6.51,-0.68,-0.81
+"Madeira, papel e móveis",49061,51251,59.52,59.59,3.16,3.64,-0.07,-0.48
+"Têxtil, vestuário e couro",94631,100547,64.88,65.61,4.28,4.75,-0.73,-0.47
+Outras,9521,9818,75.55,76.52,6.33,6.85,-0.97,-0.52
+"Química, plástico e minerais não metálicos",57597,57833,66.5,67.44,5.47,6.04,-0.94,-0.57
+Agroindústria,94752,90210,50.97,57.05,3.82,4.28,-6.08,-0.46
+Eletroeletrônico,21992,20346,71.4,75.55,8.17,10.63,-4.15,-2.46
